@@ -27,7 +27,7 @@
                 android:layout_height="55dp"
                 android:layout_gravity="top|left"
                 android:inputType="textPersonName"
-                android:text="Offline :"
+                android:text="@string/offline"
                 android:textSize="30sp" />
 
             <LinearLayout
@@ -72,7 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="55dp"
                 android:inputType="textPersonName"
-                android:text="Online :"
+                android:text="@string/online"
                 android:textSize="30sp" />
 
             <Button

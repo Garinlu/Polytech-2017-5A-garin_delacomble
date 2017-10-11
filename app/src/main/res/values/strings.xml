@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ZeQuizz</string>
+    <string name="online">En ligne</string>
+    <string name="offline">Hors ligne</string>
 </resources>
