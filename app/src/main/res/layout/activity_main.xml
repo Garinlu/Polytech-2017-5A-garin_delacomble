@@ -27,7 +27,7 @@
                 android:layout_height="55dp"
                 android:layout_gravity="top|left"
                 android:inputType="textPersonName"
-                android:text="Offline :"
+                android:text="@string/offline"
                 android:textSize="30sp" />
 
             <LinearLayout
@@ -61,26 +61,15 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/editText3"
-                android:layout_width="wrap_content"
-                android:layout_height="55dp"
-                android:inputType="textPersonName"
-                android:text="Online :"
-                android:textSize="30sp" />
+        <fragment
+            android:name="com.example.lucas.tppolytech.MainFragment"
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            tools:layout="@layout/my_fragment">
+        </fragment>
 
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:text="1 vs 1 Online" />
-
-        </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
